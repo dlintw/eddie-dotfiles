@@ -1,6 +1,6 @@
 [user]
-  name = Eddie Kao
-  email = eddie@digik.com.tw
+  name = Daniel YC Lin
+  email = dlin.tw@gmail.com
 [core]
   excludesfile = ~/.gitignore_global
   autocrlf = false
@@ -13,12 +13,14 @@
 	trustExitCode = true
 [alias]
   co = checkout
+  ci = commit
   br = branch
   aa = add --all
   r  = !git l -20
   ra = !git l --all
   l  = "!source ~/.dotfiles/.githelper && pretty_git_log"
   la = !git l --all
+  s = status
 [gui]
   encoding = utf-8
 [i18n]
